@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.img-banner{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(208, 206, 206);
+    position: relative;
+}
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    transition: top 0.5s ease-in-out;
+}
+
+#main-img{
+    height: 617px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.banner-text{
+    position:absolute;
+    top: 180px;
+    left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+       
+}
+
+.ex-btn{
+    background-color: #e8363c !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.ex-btn:hover{
+    background-color: #f6121a !important;
+}
+
+.policy{
+    height: 300px;
+    width: 100%;
+    border: 2x solid;
+    background-color: black;
+}
+
+.bi-credit-card-2-front{
+    font-size: 60px;
+}
+
+.bi-arrow-repeat{
+    font-size: 60px;
+}
+
+.bi-headset{
+    font-size: 60px;
+}
+
+.bi-truck{
+    font-size: 60px;
+}
+
+/* #product-img-1
+{
+    height: 300 !important;
+    width: 100% !important;
+} */
+
+.cartBtn{
+    background-color: #e8363c !important;
+}
+
+.cartBtn:hover{
+    background-color: #f6121a !important;
+}
+
+.product-item{
+    overflow: hidden !important;
+}
+
+.card{
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    border: none !important;
+}
+
+.product-item:hover img{
+   scale: 1.1;
+   transition: 0.3s;
+}
+
+.total-box{
+    height: 300px !important;
+    width: 100% !important;
+    border: 2px solid grey !important;
+
+}
+
+.qty-count{
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width:   100px;
+    padding: 20px;
+}
